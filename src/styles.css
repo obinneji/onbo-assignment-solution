@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 237, 237);
+    font-family: roboto;
+}
+
+.phone-container{
+    height: 100px;
+    
+    background-color: #fff;
+    color: black;
+    margin: 10px 20px;
+    border-radius: 8px;
+}
+.phone-container:hover{
+    border: 1.5px solid black;
+}
+p {
+    margin: 10px 5px;
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.country-code{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    margin-left: 10px;
+}
+    
+.country-code select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    appearance: none;
+    background: url("../public/images/Polygon.svg") no-repeat right 5px top 80% ;
+}
+
+    .select-items {
+        position: absolute;
+        background-color: DodgerBlue;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+      }
+hr{
+    margin-left: 10px;
+    background-color: rgb(17, 17, 17);
+    width: 1px;
+    border: none;
+}
+input{
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
+    outline: none;
+    border: none;
+    appearance: none;
+}
